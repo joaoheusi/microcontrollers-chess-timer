@@ -4972,6 +4972,7 @@ EEPROM_Write(0x00,minConfigura);
 min2=minConfigura;
 min1=minConfigura;
 tela_placar();
+asm(" reset");
 }
 }
 }

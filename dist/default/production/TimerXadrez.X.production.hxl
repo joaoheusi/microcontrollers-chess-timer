@@ -13,14 +13,14 @@
   0h - 3h		(dist/default/production\TimerXadrez.X.production.hex)
   8h - 11h		(dist/default/production\TimerXadrez.X.production.hex)
   600h - 632h		(dist/default/production\TimerXadrez.X.production.hex)
-  634h - 1CFBh		(dist/default/production\TimerXadrez.X.production.hex)
+  634h - 1D01h		(dist/default/production\TimerXadrez.X.production.hex)
   200000h - 200007h		(dist/default/production\TimerXadrez.X.production.hex)
   300000h - 30000Dh		(dist/default/production\TimerXadrez.X.production.hex)
  Unused ranges:
   4h - 7h
   12h - 5FFh
   633h - 633h
-  1CFCh - 1FFFFFh
+  1D02h - 1FFFFFh
   200008h - 2FFFFFh
 
 ### Hex Memory Map ###
@@ -400,7 +400,8 @@
 00001CC0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00001CD0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00001CE0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00001CF0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- --
+00001CF0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001D00 | H1 H1 -- -- -- -- -- -- -- -- -- -- -- -- -- --
 ----------------------------------------------------------
 00200000 | H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- --
 ----------------------------------------------------------

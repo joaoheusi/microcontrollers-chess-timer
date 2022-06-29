@@ -4534,30 +4534,33 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;xadrez_main.c: 467: tela_placar();
 "467
 [e ( _tela_placar ..  ]
+[; ;xadrez_main.c: 468: asm(" reset");
 "468
-}
-[e :U 387 ]
+[; <"  reset ;# ">
 "469
 }
-[e :U 385 ]
+[e :U 387 ]
 "470
 }
+[e :U 385 ]
+"471
+}
 [e :U 384 ]
-"472
+"473
 }
 [e :U 372 ]
 "421
 [e $U 373  ]
 [e :U 374 ]
-[; ;xadrez_main.c: 468: }
 [; ;xadrez_main.c: 469: }
 [; ;xadrez_main.c: 470: }
-[; ;xadrez_main.c: 472: }
-[; ;xadrez_main.c: 473: return;
-"473
-[e $UE 369  ]
-[; ;xadrez_main.c: 474: }
+[; ;xadrez_main.c: 471: }
+[; ;xadrez_main.c: 473: }
+[; ;xadrez_main.c: 474: return;
 "474
+[e $UE 369  ]
+[; ;xadrez_main.c: 475: }
+"475
 [e :UE 369 ]
 }
 [p f _sprintf 8388736 ]

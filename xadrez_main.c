@@ -464,7 +464,8 @@ void main(void) {
 					EEPROM_Write(0x00,minConfigura);
 				   min2=minConfigura;
 				   min1=minConfigura;
-                   tela_placar();  				
+                   tela_placar();
+                    Reset();                   
                 }
             }            
         }
